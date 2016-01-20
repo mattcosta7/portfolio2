@@ -1,2 +1,2 @@
-require './app.rb'
+require './routes'
 run Sinatra::Application

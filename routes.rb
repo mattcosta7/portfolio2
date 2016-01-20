@@ -3,6 +3,7 @@ require 'sendgrid-ruby'
 require 'sinatra/flash'
 require 'valid_email'
 require 'valid_email/validate_email'
+
 enable :sessions
 
 get '/' do 
