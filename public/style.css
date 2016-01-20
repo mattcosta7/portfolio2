@@ -1,3 +1,7 @@
+body{
+  padding-top: 100px;
+}
+
 .skillList ul{
   list-style-type: none;
 }
@@ -10,4 +14,50 @@
 
 #face{
   border-radius: 40%;
+}
+
+
+.project{
+  height:350px;
+}
+
+.flash{
+  color:red;
+  font-weight: bold;
+}
+
+.projectslist ul{
+  list-style-type: none;
+  font-size: 1.2em;
+}
+
+.social{
+  display: inline-block;
+  width:140px;
+  position:fixed;
+  z-index:10;
+}
+
+.social img{
+  width:40px;
+}
+
+.socialtext{
+  padding-left:5px;
+  color: #337ab7;
+  font-size: 1.5em;
+  background-color:rgba(255,255,255,.9);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.social a{
+  text-decoration: none;
+}
+
+.contactDetails {
+  list-style-type: none;
+  text-align: left;
+  font-size: 1.3em;
+  color: #337ab7
 }

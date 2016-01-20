@@ -1,4 +1,31 @@
 <div class='row col-md-12'>
   <div class='well'>
+    <div id='contact'>
+      <div class='row text-center'>
+        <h3>Hire Me!</h3>
+        <% if flash[:notice] %>
+          <%= "<span class='flash'>" + flash[:notice] + "</span>"%>
+        <% end %>
+        <div class='col-md-offset-1 col-md-4'> 
+        <ul class='contactDetails'>
+        <h4>Matthew Costabile</h4>
+          <li><a href='mailto:matt@mattc.io'>email: matt@mattc.io</a></li>
+          <li><a href='https://www.github.com/mattcosta7'>github: /mattcosta7</a></li>
+          <li><a href='https://www.linkedin.com/in/costabilematthew'>linkedin: /costabilematthew </a></li>
+          <li>city: Astoria, NY </li>
+          <li>phone: 914.310.1893 </li>
+        </ul>
+        </div>
+        <div class='col-md-offset-1 col-md-6'>
+        <form action="/email" method="POST">
+          <input class="form form-control name" type="text" name="name" placeholder="Your Name!" >
+          <input class="form form-control" type="text" name="mail" placeholder="Your Email!" >
+          <input class="form form-control"  type="text" name="number" placeholder="Your Phone!" >
+          <textarea class="form form-control"  class="article-input" id="article-input" type="text" rows="9" cols="20" name="comment" placeholder="Your Message!"></textarea>
+          <input class="form form-control btn btn-primary submit" type="submit">
+        </form>
+        </div>  
+      </div>
+    </div>
   </div>
 </div>
