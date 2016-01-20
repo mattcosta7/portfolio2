@@ -32,13 +32,8 @@ GEM
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
-    sinatra-bootstrap (0.6.1)
-      sinatra (>= 1.0)
-      sinatra-outputbuffer
     sinatra-flash (0.3.0)
       sinatra (>= 1.0.0)
-    sinatra-outputbuffer (0.1.0)
-      sinatra (>= 1.0.a)
     smtpapi (0.1.0)
     thread_safe (0.3.5)
     tilt (2.0.2)
@@ -55,7 +50,6 @@ DEPENDENCIES
   mail
   sendgrid-ruby
   sinatra
-  sinatra-bootstrap
   sinatra-flash
   valid_email
 
