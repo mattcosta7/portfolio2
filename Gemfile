@@ -1,0 +1,10 @@
+source 'http://rubygems.org'
+ruby '2.2.3'
+
+gem 'sinatra'
+gem 'sinatra-bootstrap'
+gem 'mail'
+gem 'sendgrid-ruby'
+gem 'sinatra-flash'
+gem 'valid_email'
+gem 'sinatra-redirect-with-flash'

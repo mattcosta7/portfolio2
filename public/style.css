@@ -1,0 +1,13 @@
+.skillList ul{
+  list-style-type: none;
+}
+.skillList li{
+  font-size: 1.2em;
+  line-height:1.5em;
+  padding: 0;
+}
+
+
+#face{
+  border-radius: 40%;
+}
