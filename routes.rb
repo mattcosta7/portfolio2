@@ -3,8 +3,10 @@ require 'sendgrid-ruby'
 require 'sinatra/flash'
 require 'valid_email'
 require 'valid_email/validate_email'
+require 'sinatra/prawn'
 
 enable :sessions
+set :prawn, { :page_layout => :portrait }
 
 get '/' do 
   erb :index
@@ -26,4 +28,8 @@ post '/email' do
     flash[:notice]="Please use a properly formatted email address!"
     redirect '/#contact'
   end
+end
+
+get '/resume' do 
+  erb :resume
 end

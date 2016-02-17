@@ -21,9 +21,15 @@ GEM
     mimemagic (0.3.1)
     minitest (5.8.3)
     multipart-post (2.0.0)
+    pdf-core (0.6.0)
+    prawn (2.0.2)
+      pdf-core (~> 0.6.0)
+      ttfunk (~> 1.4.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    sbfaulkner-sinatra-prawn (0.9.2.1)
+      prawn
     sendgrid-ruby (1.1.6)
       faraday (~> 0.9)
       mimemagic
@@ -37,6 +43,7 @@ GEM
     smtpapi (0.1.0)
     thread_safe (0.3.5)
     tilt (2.0.2)
+    ttfunk (1.4.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     valid_email (0.0.11)
@@ -48,6 +55,7 @@ PLATFORMS
 
 DEPENDENCIES
   mail
+  sbfaulkner-sinatra-prawn
   sendgrid-ruby
   sinatra
   sinatra-flash
