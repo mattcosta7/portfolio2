@@ -3,10 +3,8 @@ require 'sendgrid-ruby'
 require 'sinatra/flash'
 require 'valid_email'
 require 'valid_email/validate_email'
-require 'sinatra/prawn'
 
 enable :sessions
-set :prawn, { :page_layout => :portrait }
 
 get '/' do 
   erb :index
