@@ -18,8 +18,9 @@ body{
 
 
 .project{
-  height:350px;
-  width:500px;
+  max-height:350px;
+  max-width:500px;
+  width: 100%;
 }
 
 .flash{
@@ -27,9 +28,9 @@ body{
   font-weight: bold;
 }
 
-.projectslist ul{
-  list-style-type: none;
+.projectslist p{
   font-size: 1.2em;
+  margin-top: 8%;
 }
 
 .social{
@@ -37,10 +38,6 @@ body{
   width:140px;
   position:fixed;
   z-index:10;
-}
-
-.social img{
-  width:40px;
 }
 
 .socialtext{
@@ -59,6 +56,48 @@ body{
 .contactDetails {
   list-style-type: none;
   text-align: left;
-  font-size: 1.3em;
+  font-size: 2em;
   color: #337ab7
+}
+.contactDetails h4{
+  font-size: 1.8em;
+}
+.contactDetails li{
+  text-indent: 60px;
+}
+
+i{
+  color: #000;
+}
+i:hover{
+  color: #16456D;
+}
+.fa{
+    font-size: 3em;
+}
+
+.socialRoll{
+  margin-bottom: 3px;
+}
+
+.project-wrapper{
+  margin-top: 25px;
+  border-top: 1px solid #464646;
+}
+.project-wrapper h3{
+  margin-bottom: 25px;
+}
+.row{
+  height:100%;
+}
+
+.about-name{
+  font-size: 4em;
+}
+.about-sub{
+  font-size: 3em;
+}
+
+.about-para{
+  font-size: 1.5em;
 }

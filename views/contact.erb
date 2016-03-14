@@ -6,7 +6,7 @@
         <% if flash[:notice] %>
           <%= "<span class='flash'>" + flash[:notice] + "</span>"%>
         <% end %>
-        <div class='col-md-offset-1 col-md-4'> 
+        <div class='col-md-6'> 
         <ul class='contactDetails'>
         <h4>Matthew Costabile</h4>
           <li><a href='mailto:matt@mattc.io'>email: matt@mattc.io</a></li>
@@ -16,7 +16,7 @@
           <li>phone: 914.310.1893 </li>
         </ul>
         </div>
-        <div class='col-md-offset-1 col-md-6'>
+        <div class='col-md-6'>
         <form action="/email" method="POST">
           <input class="form form-control name" type="text" name="name" placeholder="Your Name!" >
           <input class="form form-control" type="text" name="mail" placeholder="Your Email!" >
