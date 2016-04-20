@@ -13,7 +13,8 @@ body{
 
 
 #face{
-  border-radius: 40%;
+  max-width: 180px;
+  max-height: 180px;
 }
 
 
