@@ -6,11 +6,11 @@ require 'valid_email/validate_email'
 set :port, 9494
 enable :sessions
 
-get '/' do 
-  erb :index
+get '/' do
+  erb(:index)
 end
 
-post '/email' do 
+post '/email' do
   if ValidateEmail.valid?(params[:mail])
     client = SendGrid::Client.new(api_user: ENV['SENDGRID_USERNAME'], api_key: ENV['SENDGRID_PASSWORD'])
     email = SendGrid::Mail.new do |m|
@@ -28,6 +28,6 @@ post '/email' do
   end
 end
 
-get '/resume' do 
+get '/resume' do
   erb :resume
 end
